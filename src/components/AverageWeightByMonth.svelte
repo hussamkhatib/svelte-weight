@@ -4,12 +4,12 @@
     import { WeightStore } from "../store"
     
     let x = getAverageWeightPerMonth($WeightStore)
-
+    
     let data = {
         labels: months,
         datasets: [
         {
-            chartType: "bar",
+          chartType: "bar",
           values: x
         }
       ],

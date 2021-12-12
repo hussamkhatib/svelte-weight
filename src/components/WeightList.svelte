@@ -2,11 +2,12 @@
     import WeightListItem from "./WeightListItem.svelte";
     import { fade, scale } from 'svelte/transition'
     import { WeightStore } from "../store"
+
 </script>
 
 <section>
     <h3>    
-        This week
+        Recent
     </h3>
 	{#each $WeightStore as weightObj (weightObj.date)}
         <div in:scale out:fade="{{ duration: 500 }}">

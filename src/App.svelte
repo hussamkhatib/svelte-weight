@@ -7,8 +7,8 @@
 <main>
 	<h1>Weight Tracking App</h1>
 	<AddWeight />
-	<WeightList />
 	<AverageWeightByMonth />
+	<WeightList />
 </main>
 
 <style>
