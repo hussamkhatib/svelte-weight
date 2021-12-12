@@ -1,3 +1,4 @@
+import moment from 'moment';
 export const months = ['Jan','Feb','Mar','Apr','May,','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
 
 export const getMonthNameNum = (timestamp) => {
@@ -15,3 +16,6 @@ export const  getAverageWeightPerMonth = (data) => {
       }
       return arr.map(c=> c.total === 0 ? 0:  (c.total/c.count).toFixed(2))
     }
+
+export const formatDate = (date) =>
+    moment(+date).format('ll')

@@ -1,5 +1,6 @@
 <script>
   export let weightObj
+  import {formatDate} from "../date-helper"
   const { weight,date} = weightObj
 </script>
 
@@ -8,7 +9,7 @@
         {weight}Kg
     </p>
     <time>
-        {date}
+        {formatDate(date)}
     </time>
 </div>
 
