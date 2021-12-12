@@ -2,14 +2,14 @@ import { writable } from "svelte/store";
 
 export const WeightStore = writable([
     {
-        weight: 100,
-        date: '18Nov2020'
+        weight: 55,
+        date: '1639338825897'
     },	{
         weight: 56.1,
-        date: '17Nov2020'
+        date: '1639342121901'
     },
     {
         weight: 56.2,
-        date: '16Nov2020'
+        date: '1639342115115'
     }
 ])

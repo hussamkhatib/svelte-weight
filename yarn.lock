@@ -230,6 +230,11 @@ fill-range@^7.0.1:
   dependencies:
     to-regex-range "^5.0.1"
 
+frappe-charts@^1.6.2:
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/frappe-charts/-/frappe-charts-1.6.2.tgz#4671a943a8606e5020180fa65c8ea1835c510baf"
+  integrity sha512-9TC3/+YVUi84yYoEbxFiSqu+1FQ5If/ydUNj6i8FRpwynd08t6a7RkS+IRJozAk6NfdL8/LVTTE1DUOjjKZZxg==
+
 fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
@@ -599,7 +604,15 @@ supports-color@^7.0.0:
   dependencies:
     has-flag "^4.0.0"
 
-svelte@^3.0.0:
+svelte-frappe-charts@^1.9.1:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/svelte-frappe-charts/-/svelte-frappe-charts-1.9.1.tgz#4358db23cc4d231b7ec58f4735f6d6919d3c1076"
+  integrity sha512-cp2Sv+EXxdH5nIJ9I6ant9XP73Sc8CGXLzb0h8vpV0viH+zCCE+CEmo/cOiWL4JWNZrxRJ5UBdDGVk5nnORyKA==
+  dependencies:
+    frappe-charts "^1.6.2"
+    svelte "^3.44.0"
+
+svelte@^3.44.0, svelte@^3.44.2:
   version "3.44.2"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.44.2.tgz#3e69be2598308dfc8354ba584cec54e648a50f7f"
   integrity sha512-jrZhZtmH3ZMweXg1Q15onb8QlWD+a5T5Oca4C1jYvSURp2oD35h4A5TV6t6MEa93K4LlX6BkafZPdQoFjw/ylA==

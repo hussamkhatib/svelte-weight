@@ -1,5 +1,6 @@
 <script>
     import WeightListItem from "./WeightListItem.svelte";
+    import { fade, scale } from 'svelte/transition'
     import { WeightStore } from "../store"
 </script>
 
@@ -8,8 +9,10 @@
         This week
     </h3>
 	{#each $WeightStore as weightObj (weightObj.date)}
-        <WeightListItem {weightObj}/>
-    {/each}
+        <div in:scale out:fade="{{ duration: 500 }}">
+            <WeightListItem {weightObj}/>
+          </div>
+    {/each} 
 </section>
 
 <style>

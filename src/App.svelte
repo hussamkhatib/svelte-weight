@@ -1,11 +1,14 @@
 <script>
 	import AddWeight from "./components/AddWeight.svelte";
 	import WeightList from "./components/WeightList.svelte";
+	import AverageWeightByMonth from "./components/AverageWeightByMonth.svelte";
 </script>
 
 <main>
 	<h1>Weight Tracking App</h1>
 	<AddWeight />
+	<AverageWeightByMonth />
+
 	<WeightList />
 </main>
 
