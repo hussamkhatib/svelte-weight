@@ -17,8 +17,7 @@
     div{
         display: flex;
         justify-content: space-between;
-        background-color: #F0EEFA;
-        color: #8C69D0;
+        background-color: #7CD6FD;
         margin: 1.25em ;
         padding: 0 1em;
         border-radius: 7px;

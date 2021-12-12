@@ -16,7 +16,7 @@
 
 <form on:submit|preventDefault={handleSubmit}>
 <input type=number bind:value={weight}>
-    <button >
+    <button>
         Add Weight
     </button>
 </form>
@@ -28,7 +28,7 @@
         justify-content: end;
     }
     button {
-        background: #8C69D0;
+        background: #7CD6FD;
         color: #fff;
         padding: 0.6em 1em;
         border-radius: 7px;
