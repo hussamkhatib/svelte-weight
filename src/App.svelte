@@ -1,8 +1,30 @@
 <script>
+	import AddWeightBtn from "./components/AddWeightBtn.svelte";
+	import WeightList from "./components/WeightList.svelte";
+
+	let weightsByDate = [
+		{
+			id:1,
+			weight: 56,
+			date: '18Nov2020'
+		},	{
+			id:2,
+			weight: 56.1,
+			date: '17Nov2020'
+		},
+		{
+			id:3,
+			weight: 56.2,
+			date: '16Nov2020'
+		}
+	]
+
 </script>
 
 <main>
 	<h1>Weight Tracking App</h1>
+	<AddWeightBtn />
+	<WeightList {weightsByDate}/>
 </main>
 
 <style>
