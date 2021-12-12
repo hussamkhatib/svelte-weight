@@ -16,4 +16,4 @@
     };
   </script>
   
-  <Chart data={data} type="line" />
+    <Chart data={data} type="line" />

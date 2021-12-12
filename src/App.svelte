@@ -7,9 +7,8 @@
 <main>
 	<h1>Weight Tracking App</h1>
 	<AddWeight />
-	<AverageWeightByMonth />
-
 	<WeightList />
+	<AverageWeightByMonth />
 </main>
 
 <style>
@@ -17,6 +16,7 @@
 		padding: 0 1em;
 		max-width: 80rem;
 		margin: 0 auto;
+		padding-bottom: 10em;
 	}
 
 	h1 {
