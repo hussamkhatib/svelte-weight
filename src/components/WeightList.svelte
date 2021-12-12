@@ -1,14 +1,14 @@
 <script>
     import WeightListItem from "./WeightListItem.svelte";
-    export let weightsByDate = []
+    import { WeightStore } from "../store"
 </script>
 
 <section>
-    <h3>
+    <h3>    
         This week
     </h3>
-	{#each weightsByDate as weightByDate (weightByDate.id)}
-        <WeightListItem {weightByDate}/>
+	{#each $WeightStore as weightObj (weightObj.date)}
+        <WeightListItem {weightObj}/>
     {/each}
 </section>
 

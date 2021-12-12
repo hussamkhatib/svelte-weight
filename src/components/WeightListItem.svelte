@@ -1,6 +1,6 @@
 <script>
-    export let weightByDate
-    const {weight, date} = weightByDate
+  export let weightObj
+  const { weight,date} = weightObj
 </script>
 
 <div>
