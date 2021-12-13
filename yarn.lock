@@ -617,6 +617,11 @@ svelte-frappe-charts@^1.9.1:
     frappe-charts "^1.6.2"
     svelte "^3.44.0"
 
+svelte-local-storage-store@^0.2.6:
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/svelte-local-storage-store/-/svelte-local-storage-store-0.2.6.tgz#33fb5f5fe3b9d70050e9b61183aec5302699b5a1"
+  integrity sha512-7QLCZ4V/0ydvZRyVChNYx7gVkprzrkACD63PpZINy5oFv9nE+5CAP94QN3NBI2awPeDB+cpUzNCB4Q0Yjr9CYQ==
+
 svelte@^3.44.0, svelte@^3.44.2:
   version "3.44.2"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.44.2.tgz#3e69be2598308dfc8354ba584cec54e648a50f7f"

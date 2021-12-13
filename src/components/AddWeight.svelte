@@ -1,7 +1,8 @@
 <script>
-    import { WeightStore } from "../store"
-
-    let weight = $WeightStore[0].weight
+import { get } from 'svelte/store'
+import { WeightStore } from "../store"
+    let weights = get(WeightStore)
+    let weight =  weights[0].weight
 
     const handleSubmit = () => {
         WeightStore.update((currentWeights) => {

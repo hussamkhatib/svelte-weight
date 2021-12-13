@@ -1,6 +1,6 @@
-import { writable } from "svelte/store";
+import { writable } from "svelte-local-storage-store";
 
-export const WeightStore = writable([
+export const WeightStore = writable('weights',[
     {
         weight:57,
         date: 1614636862000
