@@ -3,17 +3,22 @@
     import {months,getAverageWeightPerMonth} from "../date-helper"
     import { WeightStore } from "../store"
     
-    let x = getAverageWeightPerMonth($WeightStore)
-    
-    let data = {
+    let data
+    let weightValue;
+    WeightStore.subscribe(val => {
+      console.log(val)
+      weightValue = getAverageWeightPerMonth(val)
+      data = {
         labels: months,
         datasets: [
         {
           chartType: "bar",
-          values: x
+          values: weightValue
         }
       ],
     };
+    })
+ 
   </script>
   
     <Chart data={data} type="line" />
