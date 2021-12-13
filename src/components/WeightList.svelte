@@ -9,7 +9,7 @@
     <h3>    
         Recent
     </h3>
-	{#each $WeightStore as weightObj (weightObj.date)}
+	{#each $WeightStore.slice(0,5) as weightObj (weightObj.date)}
         <div in:scale out:fade="{{ duration: 500 }}">
             <WeightListItem {weightObj}/>
           </div>
